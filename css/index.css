@@ -160,6 +160,31 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  background-color: #F6F6F6;
+  font-family: #454A59;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1%;
+  width: 100%;
+}
+nav .nav-section h1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2% auto;
+  margin: 0 0 4% 0;
+  font-size: 3rem;
+}
+nav .nav-section .nav-links a {
+  justify-content: space-between;
+  width: 65%;
+  font-size: 1.1rem;
+  padding: 1%;
+  text-decoration: none;
+  font-family: #454A59;
+  color: black;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
