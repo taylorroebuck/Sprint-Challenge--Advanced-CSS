@@ -24,3 +24,14 @@
         color: darken(red, 20%);
     }
 }
+
+.animation() {
+    animation-name: flash;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+    @keyframes flash {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+}

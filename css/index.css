@@ -181,6 +181,17 @@ nav .nav-section h1 {
   margin: 2% auto;
   margin: 0 0 4% 0;
   font-size: 3rem;
+  animation-name: flash;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @media (max-width: 500px) {
   nav .nav-section h1 {
