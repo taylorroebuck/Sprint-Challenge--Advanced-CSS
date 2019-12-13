@@ -15,7 +15,9 @@ nav {
         }
 
 
-    .nav-section {
+    .nav-section { 
+        width: 50%;
+        margin: 0 auto;
         h1{
             .flex();
             margin: 0 0 4% 0;
@@ -26,12 +28,14 @@ nav {
                 padding: 2%;
             }
         }
-
+        .nav-links {
+            .flex();
+        }
         a{
             justify-content: space-between;
-            width: 65%;
             font-size: 1.1rem;
-            padding: 1%;
+            width: auto;
+            margin: 1%;
             text-decoration: none;
             font-family: @nav-font;
             color: black;

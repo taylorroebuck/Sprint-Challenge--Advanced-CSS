@@ -175,6 +175,10 @@ nav {
     padding: 2%;
   }
 }
+nav .nav-section {
+  width: 50%;
+  margin: 0 auto;
+}
 nav .nav-section h1 {
   display: flex;
   justify-content: space-evenly;
@@ -198,11 +202,16 @@ nav .nav-section h1 {
     padding: 2%;
   }
 }
+nav .nav-section .nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2% auto;
+}
 nav .nav-section a {
   justify-content: space-between;
-  width: 65%;
   font-size: 1.1rem;
-  padding: 1%;
+  width: auto;
+  margin: 1%;
   text-decoration: none;
   font-family: #454A59;
   color: black;
