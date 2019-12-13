@@ -169,6 +169,12 @@ nav {
   padding: 1%;
   width: 100%;
 }
+@media (max-width: 500px) {
+  nav {
+    justify-content: space-evenly;
+    padding: 2%;
+  }
+}
 nav .nav-section h1 {
   display: flex;
   justify-content: space-evenly;
