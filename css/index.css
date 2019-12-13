@@ -176,7 +176,7 @@ nav .nav-section h1 {
   margin: 0 0 4% 0;
   font-size: 3rem;
 }
-nav .nav-section .nav-links a {
+nav .nav-section a {
   justify-content: space-between;
   width: 65%;
   font-size: 1.1rem;
@@ -184,6 +184,10 @@ nav .nav-section .nav-links a {
   text-decoration: none;
   font-family: #454A59;
   color: black;
+}
+nav .nav-section a:hover {
+  background-color: #000000;
+  color: #990000;
 }
 footer {
   color: #22283B;
@@ -194,6 +198,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  border-radius: 10px;
+  height: 100%;
 }
 .home .intro h2 {
   padding: 15px;
@@ -236,6 +244,19 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: inline-block;
+  background-color: #22283A;
+  color: white;
+  font-size: 1.2rem;
+  padding: 2% 4% 2% 4%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #000000;
+  color: #990000;
 }
 .home .walk .walk-img {
   width: 46%;

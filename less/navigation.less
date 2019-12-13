@@ -16,7 +16,7 @@ nav {
             font-size: 3rem;
         }
 
-        .nav-links a{
+        a{
             justify-content: space-between;
             width: 65%;
             font-size: 1.1rem;
@@ -24,6 +24,11 @@ nav {
             text-decoration: none;
             font-family: @nav-font;
             color: black;
+
+            &:hover {
+                background-color: darken(@btn-bg-color, 20%);
+                color: darken(red, 20%);
+            }
         }
     }
 }
