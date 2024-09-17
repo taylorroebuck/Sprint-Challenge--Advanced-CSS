@@ -1,1 +1,54 @@
 // Navigation code here
+nav {
+    background-color: @nav-bg;
+    font-family: @nav-font;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    width: 100%;
+
+        @media @phone {
+            justify-content: space-evenly;
+            padding: 2%;
+
+        }
+
+
+    .nav-section { 
+        width: 50%;
+        margin: 0 auto;
+        h1{
+            .flex();
+            margin: 0 0 4% 0;
+            font-size: 3rem;
+            .animation();
+
+            @media @phone {
+                padding: 2%;
+            }
+        }
+        .nav-links {
+            .flex();
+        }
+        a{
+            justify-content: space-between;
+            font-size: 1.1rem;
+            width: auto;
+            margin: 1%;
+            text-decoration: none;
+            font-family: @nav-font;
+            color: black;
+
+            @media @phone {
+                width: 100%;
+                padding: 1.5%;
+            }
+
+            &:hover {
+                background-color: darken(@btn-bg-color, 20%);
+                color: darken(red, 20%);
+            }
+        }
+    }
+}

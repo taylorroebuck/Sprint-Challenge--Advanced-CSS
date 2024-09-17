@@ -1,1 +1,37 @@
 // Mixins Here
+.flex() {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% auto;
+}
+
+.image(){
+    border-radius: 10px;
+    height: auto;
+}
+
+.button(@bckgrnd-color, @font-color) {
+    display: inline-block;
+    background-color: @bckgrnd-color;
+    color: @font-color;
+    font-size: 1.2rem;
+    padding: 2% 4% 2% 4%;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken(@btn-bg-color, 20%);
+        color: darken(red, 20%);
+    }
+}
+
+.animation() {
+    animation-name: flash;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+    @keyframes flash {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+}
